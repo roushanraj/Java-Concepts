@@ -1,9 +1,8 @@
 package encapsulation;
 
 class Machine{
-	private String name;		//these are instance variable which are public
-	private int id;			//because other class is going to access it
-	
+	private String name;		
+	private int id;			
 	private int batchNo=23;	//we set these private because we don't need to share it with other class
 	private int edition=34;	//and its good practice to hide information which is not necessary for other classes. Thus enforcing ENCAPSULATION.
 	
@@ -12,11 +11,11 @@ class Machine{
 		this.id=id;
 	} 
 	
-	public void showInfo() {
+	public void showInfo() {		//public because this method will be used by other class
 		System.out.printf("The name if machine is %s and ID no. is %d.\n",name,id);
 	}
 	
-	public void showUniqueID() {
+	public void showUniqueID() {		//public because this method will be used by other class
 		System.out.println("The unique ID is : "+uniqueID());
 	}
 	
