@@ -1,0 +1,13 @@
+class Animal{
+	public String name;
+	public static String type;
+}
+public class StaticKeyword {
+
+	public static void main(String[] args) {
+		Animal.type="vertebrate";
+		System.out.println(Animal.type);
+
+	}
+
+}

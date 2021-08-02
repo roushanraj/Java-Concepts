@@ -1,0 +1,14 @@
+class Speaker{
+	void speak() {
+		System.out.println("Hey");
+	}
+}
+public class Sample {
+
+	public static void main(String[] args) {
+		Speaker say = new Speaker();
+		say.speak();
+
+	}
+
+}

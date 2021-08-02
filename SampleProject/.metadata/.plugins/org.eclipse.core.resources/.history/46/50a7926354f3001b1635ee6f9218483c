@@ -1,0 +1,20 @@
+package polymerphism;
+
+public class Polymerphism {
+	public static void main(String[] args) {
+		Vehicle v1= new Vehicle();
+		Car c1= new Car();
+		
+		Vehicle v2= c1;		//we are using subclass as reference for creating the object
+		
+		v1.drive();
+		v2.drive();
+		
+		driving(c1);
+	}
+	
+	public static void driving(Vehicle v) {
+		v.drive();
+	}
+
+}

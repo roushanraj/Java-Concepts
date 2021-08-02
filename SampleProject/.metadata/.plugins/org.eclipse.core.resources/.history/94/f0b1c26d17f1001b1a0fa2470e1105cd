@@ -1,0 +1,12 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Example{
+    
+public static void main(String[] args) {
+	Scanner input= new Scanner(System.in);
+	double a= input.nextDouble();
+	System.out.println("Entered number is "+a);
+}
+} 

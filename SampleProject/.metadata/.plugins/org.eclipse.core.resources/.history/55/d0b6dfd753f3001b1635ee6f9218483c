@@ -1,0 +1,5 @@
+package polymerphism;
+
+public class Car extends Vehicle {
+
+}

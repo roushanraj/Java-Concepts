@@ -1,0 +1,19 @@
+class Speaker{
+	void speak(String s) {
+		System.out.println(s);
+	}
+	
+	void tellAge(int a) {
+		System.out.println("your age is : "+a);
+	}
+}
+public class Sample {
+
+	public static void main(String[] args) {
+		Speaker say = new Speaker();
+		say.speak("hey! how are you");
+		say.tellAge(25);
+
+	}
+
+}

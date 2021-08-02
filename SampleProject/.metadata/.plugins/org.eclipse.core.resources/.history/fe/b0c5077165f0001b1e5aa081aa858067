@@ -1,0 +1,25 @@
+class Speaker{
+	void speak(String s) {
+		System.out.println(s);
+	}
+	
+	void tellAge(int a) {
+		System.out.println("your age is : "+a);
+	}
+	int simpleIntrest(int p,int r, int t) {
+		int si= (p*r*t)/100;
+		return si;
+	}
+}
+public class Sample {
+
+	public static void main(String[] args) {
+		Speaker say = new Speaker();
+		say.speak("hey! how are you");
+		say.tellAge(25);
+		int intrest= say.simpleIntrest(10000, 12, 2);
+		System.out.println("The simple intrest is : "+ intrest);
+
+	}
+
+}

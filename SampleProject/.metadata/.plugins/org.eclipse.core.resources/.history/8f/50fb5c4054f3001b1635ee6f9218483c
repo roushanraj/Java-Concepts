@@ -1,0 +1,14 @@
+package polymerphism;
+
+public class Polymerphism {
+	public static void main(String[] args) {
+		Vehicle v1= new Vehicle();
+		Car c1= new Car();
+		
+		Vehicle v2= c1;
+		
+		v1.drive();
+		v2.drive();
+	}
+
+}
