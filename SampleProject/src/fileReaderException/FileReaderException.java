@@ -35,11 +35,7 @@ public class FileReaderException {
 				System.out.println("file was actually never opened");
 			}
 		}
-		
-		
-		
-		
-
+	
 	}
 
 }
