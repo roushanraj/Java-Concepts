@@ -9,7 +9,7 @@ public class FileWriterExample {
 
 		File f = new File("test1.txt");
 
-		try (BufferedWriter br = new BufferedWriter(new FileWriter(f))) {	//this automatically fo the close() operation on BufferReader.
+		try (BufferedWriter br = new BufferedWriter(new FileWriter(f))) {	//this automatically do the close() operation on BufferReader.
 			br.write("Hey This is new file. ");
 			br.write("This is another sentence.");
 			br.newLine();

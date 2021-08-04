@@ -1,4 +1,4 @@
-package serialization;
+package serializingArrayOfObject;
 
 import java.io.Serializable;
 
