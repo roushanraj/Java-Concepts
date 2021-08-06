@@ -15,7 +15,7 @@ public class TypePromotion {	//where overloading fails
 
 	public static void main(String[] args) {
 		Machine m1 = new Machine();
-		float s = m1.sum(20, 20);
+		float s = m1.sum(20, 20);	//compiler experiences ambiguity
 		System.out.println(s);
 	}
 
