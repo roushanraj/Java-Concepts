@@ -1,4 +1,4 @@
-class Machine {
+class Machine {	
 
 	public float sum(int a, float b) {
 		System.out.println("First method called");
@@ -11,7 +11,7 @@ class Machine {
 	}
 }
 
-public class TypePromotion {
+public class TypePromotion {	//where overloading fails
 
 	public static void main(String[] args) {
 		Machine m1 = new Machine();
