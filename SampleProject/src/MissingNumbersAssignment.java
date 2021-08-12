@@ -57,8 +57,6 @@ public class MissingNumbersAssignment {
 		{
 			System.out.printf("[%d]",integers);
 		}
-		
-
 	}
 
 	private static ArrayList<Integer> arrayInput(int len) {

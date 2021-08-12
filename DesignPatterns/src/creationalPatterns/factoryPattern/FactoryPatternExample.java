@@ -1,3 +1,18 @@
+/*
+ * 			   Tightly coupled class
+ * 						↓
+ *		Implement IOC using Factory Pattern
+ * 						↓
+ *		Implement DIP by creating Abstraction
+ * 						↓
+ *				  Implement DI
+ * 						↓
+ *			    use IOC Container	[manages object creation and it's life-time, and also injects dependencies to the class]
+ * 						↓
+ *			  Loosely coupled class
+ * 
+ * */
+
 package creationalPatterns.factoryPattern;
 
 
